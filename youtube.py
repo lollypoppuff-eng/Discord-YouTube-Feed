@@ -26,7 +26,7 @@ async def create_webhook(title, link, youtube_name, date):
         # username = name of webhook user
         ## await send(content=..., *, username=..., avatar_url=..., tts=False, ephemeral=..., suppress_embeds=..., flags=..., file=..., files=..., embed=..., embeds=..., allowed_mentions=..., view=..., components=..., thread=..., thread_name=..., applied_tags=..., wait=False, delete_after=..., poll=...)
 
-        webhook_username = Blair # enter name of the Webhook user, can be anything (in this case, it's YouTube Bot)
+        webhook_username = "Blair" # enter name of the Webhook user, can be anything (in this case, it's YouTube Bot)
         webhook_avatar = "https://i.imgur.com/Rkdjlym.png" # enter a url to a pic if you want a avatar
         await webhook.send(content=f"NEW UPLOAD FROM {youtube_name}!\n'{title}'\n{link}\n{date}", username=webhook_username, avatar_url=webhook_avatar)
         await asyncio.sleep(3)
