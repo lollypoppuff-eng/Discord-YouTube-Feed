@@ -6,7 +6,7 @@ import aiosqlite
 from fake_useragent import UserAgent
 ## note: need to use `poetry shell` in order to access lxml
 
-channel_ids = {'Teashideout': 'UCmsbIx7rpi674ZA0sVc9vKA', 'SDsync': 'UC5BqtRANoqrdMA0lEnZgOOg'}  
+channel_ids = {'Teashideout': 'UCmsbIx7rpi674ZA0sVc9vKA', 'SDsync': 'UChXb9sfSkwptGvwOmf7oMbA'}  
 # name of channel is not actually used in the script
 # channel ID's can be found on desktop easily
 # sometimes its in the url, e.g https://www.youtube.com/channel/UCqECaJ8Gagnn7YCbPEzWH6g - UCqECaJ8Gagnn7YCbPEzWH6g is the ID
